@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>file-upload</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="app">
+      <file-upload></file-upload>
+    </div>
+    <script src="/dist/build.js"></script>
+    <script type="text/javascript">
+       var init = function () {
+          new Vue({
+            el: '#app'
+         });
+       };
+       jQuery(init);
+    </script>
+  </body>
+</html>

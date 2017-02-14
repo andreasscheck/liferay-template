@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE liferay-portlet-app PUBLIC "-//Liferay//DTD Portlet Application 6.1.0//EN" "http://www.liferay.com/dtd/liferay-portlet-app_6_1_0.dtd">
+<liferay-portlet-app>
+	<portlet>
+		<portlet-name>${portletname}</portlet-name>
+		<icon>/icon.png</icon>
+		<configuration-action-class>${package}.portlet.AbstractConfigController</configuration-action-class>
+		<instanceable>true</instanceable>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>/js/moment.min.js</footer-portlet-javascript>
+		<css-class-wrapper>${portletname}</css-class-wrapper>
+	</portlet>
+</liferay-portlet-app>

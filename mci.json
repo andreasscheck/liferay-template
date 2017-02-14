@@ -1,0 +1,34 @@
+{
+  "variables": [
+    {
+      "question": "Author",
+      "default": "",
+      "var": "author"
+    },
+    {
+      "question": "Project Name",
+      "default": "Some Project",
+      "var": "name"
+    },
+    {
+      "question": "Package",
+      "default": "foo.bar",
+      "var": "package"
+    },
+    {
+      "question": "Portlet Name",
+      "default": "some-portlet",
+      "var": "portletname"
+    },
+    {
+      "question": "Group ID",
+      "default": "foo.bar",
+      "var": "groupid"
+    },
+    {
+      "question": "Artifact ID",
+      "default": "foo.bar.portlet",
+      "var": "artifactid"
+    }
+  ]
+}
