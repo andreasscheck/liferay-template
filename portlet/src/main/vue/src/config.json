@@ -1,0 +1,2425 @@
+{
+  "initialSearch": true,
+  "sortingfields": [
+    {
+      "name": "umfang_last_modified",
+      "attributes": {
+        "order": "DESC"
+      }
+    },
+    {
+      "name": "id",
+      "attributes": {
+        "order": "ASC"
+      }
+    }
+  ],
+  "sortingEnabled": true,
+  "searchAllFieldsEnabled": true,
+  "facets": [
+    {
+      "uid": "c175cd31",
+      "facetLimit": -1,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "category": "default",
+      "facetSorting": false,
+      "name": {
+        "de": "Umfang (Name)",
+        "en": "Scope (Name)"
+      },
+      "suggestBox": true,
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_name",
+        "en": ""
+      }
+    },
+    {
+      "uid": "636acfcb",
+      "facetLimit": -1,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "category": "default",
+      "facetSorting": false,
+      "name": {
+        "de": "QMT (Name)",
+        "en": "QMT (Name)"
+      },
+      "suggestBox": true,
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_owner_name",
+        "en": ""
+      }
+    },
+    {
+      "uid": "3f1f2b28",
+      "facetLimit": -1,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "QMT (Abteilung)",
+        "en": "QMT (Department)"
+      },
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_owner_devision",
+        "en": ""
+      }
+    },
+    {
+      "uid": "152bfbc7",
+      "typesettings": {
+        "facet_queries": [
+          {
+            "name": "fsdafsa",
+            "attributes": {
+              "exclude": true,
+              "de": "sdf",
+              "en": "sa"
+            }
+          },
+          {
+            "name": "fsdafsasdfs",
+            "attributes": {
+              "de": "aa",
+              "en": "gg"
+            }
+          }
+        ]
+      },
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "QMT-Vertreter (Name)",
+        "en": "QMT Deputy (name)"
+      },
+      "suchBox": false,
+      "active": true,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "returnLimit": -1,
+      "type": "MANUAL",
+      "key": {
+        "de": "umfang_deputy_name",
+        "en": ""
+      }
+    },
+    {
+      "uid": "bbebe592",
+      "facetLimit": -1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "name": {
+        "de": "Internationaler QMT (Name)",
+        "en": "International QMT (Name)"
+      },
+      "suggestBox": true,
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_international_qmt_name",
+        "en": ""
+      }
+    },
+    {
+      "uid": "0c87f164",
+      "facetLimit": -1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "name": {
+        "de": "Internationaler QMT (Abteilung)",
+        "en": "International QMT (Department)"
+      },
+      "suggestBox": true,
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_international_qmt_abteilung",
+        "en": ""
+      }
+    },
+    {
+      "uid": "4c3e742d",
+      "facetLimit": -1,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Green",
+              "valueDE": "Grün",
+              "key": "3"
+            },
+            {
+              "valueEN": "Red",
+              "valueDE": "Rot",
+              "key": "1"
+            },
+            {
+              "valueEN": "Yellow",
+              "valueDE": "Gelb",
+              "key": "2"
+            },
+            {
+              "valueEN": "Grey",
+              "valueDE": "Offen",
+              "key": "4"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "category": "default",
+      "facetSorting": "COUNT",
+      "suggestBox": false,
+      "name": {
+        "de": "Status (Aktuell)",
+        "en": "Status (Current)"
+      },
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_status",
+        "en": ""
+      }
+    },
+    {
+      "uid": "9ccfd234",
+      "facetLimit": -1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Yes",
+              "valueDE": "Ja",
+              "key": "true"
+            },
+            {
+              "valueEN": "No",
+              "valueDE": "Nein",
+              "key": "false"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "name": {
+        "de": "Problemblatt vorhanden",
+        "en": "Problemsheet available"
+      },
+      "suggestBox": false,
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_problemblatt_available",
+        "en": ""
+      }
+    },
+    {
+      "uid": "a328c7fe",
+      "facetLimit": -1,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Yes",
+              "valueDE": "Ja",
+              "key": "true"
+            },
+            {
+              "valueEN": "No",
+              "valueDE": "Nein",
+              "key": "false"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "category": "default",
+      "facetSorting": false,
+      "name": {
+        "de": "Topthema (TT)",
+        "en": "Top Issue (TI)"
+      },
+      "suggestBox": false,
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_topthema",
+        "en": ""
+      }
+    },
+    {
+      "uid": "23cd52e9",
+      "facetLimit": -1,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "Lieferant (Nr.)",
+        "en": "Supplier (No.)"
+      },
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_lieferanten_nummern",
+        "en": ""
+      }
+    },
+    {
+      "uid": "bd2c45db",
+      "facetLimit": -1,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "name": {
+        "de": "Lieferant (Name)",
+        "en": "Supplier (Name)"
+      },
+      "suggestBox": true,
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_lieferanten_namen",
+        "en": ""
+      }
+    },
+    {
+      "uid": "fe38a854",
+      "facetLimit": 3,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Produktlinie",
+        "en": "Product Line"
+      },
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "ipq_projekt_produktlinie",
+        "en": ""
+      }
+    },
+    {
+      "uid": "38de93fd",
+      "facetLimit": -1,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "category": "default",
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "iPQ Lead Projekt (Name)",
+        "en": "iPQ Lead Project (Name)"
+      },
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "ipq_projekt_name",
+        "en": ""
+      }
+    },
+    {
+      "uid": "c9d3d691",
+      "facetLimit": -1,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "iPQ Lead Projekt (Baureihe)",
+        "en": "iPQ Lead Project (Series)"
+      },
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "ipq_projekt_baureihe",
+        "en": ""
+      }
+    },
+    {
+      "uid": "1bae4c02",
+      "key": {
+        "de": "umfang_projekte_namen",
+        "en": ""
+      },
+      "name": {
+        "de": "iPQ Projekte (Name)",
+        "en": "iPQ Projects (Name)"
+      },
+      "type": "TEXT",
+      "suggestBox": true,
+      "facetSorting": false,
+      "suchBox": false,
+      "active": true,
+      "typesettings": {},
+      "nullFacet": {
+        "enabled": false,
+        "de": "Kein Wert",
+        "en": "No Value"
+      },
+      "format": {
+        "type": "text",
+        "settings": {}
+      },
+      "returnLimit": -1
+    },
+    {
+      "uid": "0c48a9e0",
+      "key": {
+        "de": "umfang_projekte_baureihen",
+        "en": ""
+      },
+      "name": {
+        "de": "iPQ Projekte (Baureihe)",
+        "en": "iPQ Projects (Series)"
+      },
+      "type": "TEXT",
+      "returnLimit": -1,
+      "suggestBox": true,
+      "facetSorting": false,
+      "suchBox": false,
+      "active": true,
+      "typesettings": {},
+      "nullFacet": {
+        "enabled": false,
+        "de": "Kein Wert",
+        "en": "No Value"
+      },
+      "format": {
+        "type": "text",
+        "settings": {}
+      }
+    },
+    {
+      "uid": "7723c329",
+      "facetLimit": -1,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "qnumber"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "Commodity (CLQ)",
+        "en": "Commodity (CLQ)"
+      },
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_clq",
+        "en": ""
+      }
+    },
+    {
+      "uid": "ad941b9f",
+      "facetLimit": -1,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "category": "default",
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "Commodity (Nr.)",
+        "en": "Commodity (No.)"
+      },
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": true,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_commodity",
+        "en": ""
+      }
+    },
+    {
+      "uid": "65ee8b32",
+      "facetLimit": -1,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": []
+        },
+        "type": "text"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "Commodity (Name)",
+        "en": "Commodity (Name)"
+      },
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_commodity_name_de",
+        "en": "umfang_commodity_name_en"
+      }
+    },
+    {
+      "uid": "67f19b0c",
+      "facetLimit": -1,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "Prozesskette (Nr.)",
+        "en": "Process Chain (No.)"
+      },
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_prozesskette_id",
+        "en": ""
+      }
+    },
+    {
+      "uid": "2c050f94",
+      "facetLimit": -1,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "Prozesskete (Bezeichnung)",
+        "en": "Process Chain (Description)"
+      },
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_prozesskette",
+        "en": ""
+      }
+    },
+    {
+      "uid": "5c40a57b",
+      "facetLimit": 3,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "category": "default",
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "TPK (Nr.)",
+        "en": "SPC (No.)"
+      },
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_tpk",
+        "en": ""
+      }
+    },
+    {
+      "uid": "0a705941",
+      "facetLimit": -1,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "category": "default",
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "TPK (Bezeichnung)",
+        "en": "SPC (Description)"
+      },
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_tpk_bezeichnung",
+        "en": ""
+      }
+    },
+    {
+      "uid": "6c04f382",
+      "facetLimit": -1,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "MoT Type 1",
+              "valueDE": "MoT Type 1",
+              "key": "RG 0"
+            },
+            {
+              "valueEN": "MoT Type 2",
+              "valueDE": "MoT Type 2",
+              "key": "RG 1"
+            },
+            {
+              "valueEN": "MoT Type 3",
+              "valueDE": "MoT Type 3",
+              "key": "RG 2"
+            },
+            {
+              "valueEN": "MoT Type 4",
+              "valueDE": "MoT Type 4",
+              "key": "RG 3"
+            },
+            {
+              "valueEN": "MoT Type 5",
+              "valueDE": "MoT Type 5",
+              "key": "RG 4"
+            },
+            {
+              "valueEN": "MoT Type 6",
+              "valueDE": "MoT Type 6",
+              "key": "RG 5"
+            },
+            {
+              "valueEN": "MoT Type 7",
+              "valueDE": "MoT Type 7",
+              "key": "RG 6"
+            }
+          ]
+        },
+        "type": "text"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "category": "default",
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "Modul (Nr.)",
+        "en": "Module (No.)"
+      },
+      "suchBox": false,
+      "active": true,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_modul",
+        "en": ""
+      }
+    },
+    {
+      "uid": "7a011ee2",
+      "typesettings": {},
+      "facetLimit": -1,
+      "facetSorting": false,
+      "name": {
+        "de": "Modul (Name)",
+        "en": "Module (Name)"
+      },
+      "suggestBox": true,
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_modul_name",
+        "en": ""
+      }
+    },
+    {
+      "uid": "5fa291a8",
+      "facetLimit": -1,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "category": "default",
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "KOGR (Nr.)",
+        "en": "UPG (No.)"
+      },
+      "suchBox": false,
+      "active": true,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_kogr",
+        "en": ""
+      }
+    },
+    {
+      "uid": "4c944bf0",
+      "facetLimit": -1,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Yes",
+              "valueDE": "Ja",
+              "key": "true"
+            },
+            {
+              "valueEN": "No",
+              "valueDE": "Nein",
+              "key": "false"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "name": {
+        "de": "Portal M ID vorhanden",
+        "en": "Portal M ID available"
+      },
+      "suggestBox": false,
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_portalm_id_available",
+        "en": ""
+      }
+    },
+    {
+      "uid": "9c6069d0",
+      "typesettings": {},
+      "facetLimit": -1,
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "Portal M ID (iPQ)",
+        "en": "Portal M ID (iPQ)"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_portalm_id",
+        "en": ""
+      }
+    },
+    {
+      "uid": "b42d2da1",
+      "facetLimit": 4,
+      "minCount": -1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Concept",
+              "valueDE": "Konzept",
+              "key": "KONZEPTUMFANG"
+            },
+            {
+              "valueEN": "Nomination",
+              "valueDE": "Vergabe",
+              "key": "QMTVERGABEUMFANG"
+            },
+            {
+              "valueEN": "Industrialization",
+              "valueDE": "Industrialisierung",
+              "key": "INDUSTRIALISIERUNGSUMFANG"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Umfang (Phase)",
+        "en": "Scope (Phase)"
+      },
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_type",
+        "en": ""
+      }
+    },
+    {
+      "uid": "2b177081",
+      "facetLimit": 3,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "New Part",
+              "valueDE": "Neuteil",
+              "key": "Neuteil"
+            },
+            {
+              "valueEN": "Carryover Part",
+              "valueDE": "Gleichteil",
+              "key": "Gleichteil"
+            },
+            {
+              "valueEN": "Synergy Part",
+              "valueDE": "Synergieteil",
+              "key": "Synergieteil"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Umfang (Teileart)",
+        "en": "Scope (Part category)"
+      },
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_teilart",
+        "en": ""
+      }
+    },
+    {
+      "uid": "b470a147",
+      "facetLimit": 3,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Low",
+              "valueDE": "Niedrig",
+              "key": "NR"
+            },
+            {
+              "valueEN": "Medium",
+              "valueDE": "Mittel",
+              "key": "MR"
+            },
+            {
+              "valueEN": "High",
+              "valueDE": "Hoch",
+              "key": "HR"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Umfang (Risiko Teil)",
+        "en": "Scope (Risk Part)"
+      },
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_projekt_risiko",
+        "en": ""
+      }
+    },
+    {
+      "uid": "b62bc4d3",
+      "typesettings": {},
+      "facetLimit": 3,
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Bauphase (Aktuell)",
+        "en": "Build Phase (Curr.)"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "ipq_projekt_bauphase",
+        "en": ""
+      }
+    },
+    {
+      "uid": "fba5cc54",
+      "typesettings": {},
+      "facetLimit": 3,
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Reifegrad (Ist)",
+        "en": "Maturity Level (Actual)"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_rg_ist_name_short",
+        "en": ""
+      }
+    },
+    {
+      "uid": "6c99d91a",
+      "typesettings": {},
+      "facetLimit": 3,
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Reifegrad (Soll)",
+        "en": "Maturity Level (Desired)"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_rg_soll_name_short_de",
+        "en": ""
+      }
+    },
+    {
+      "uid": "caf67e45",
+      "typesettings": {},
+      "facetLimit": -1,
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "Werk (Nr. + Name)",
+        "en": "Plant (No. + Name)"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "ipq_projekt_werk_nr_name_de",
+        "en": ""
+      }
+    },
+    {
+      "uid": "e7104bd6",
+      "typesettings": {},
+      "facetLimit": 3,
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Werk (Nr.)",
+        "en": "Plant (No.)"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "ipq_projekt_werk_nr",
+        "en": ""
+      }
+    },
+    {
+      "uid": "2c6680e8",
+      "typesettings": {},
+      "facetLimit": 3,
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Werk (Name)",
+        "en": "Plant (Name)"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "ipq_projekt_werk_name_de",
+        "en": ""
+      }
+    },
+    {
+      "uid": "d459c2b3",
+      "typesettings": {},
+      "facetLimit": 3,
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Reifestufe (Projekt)",
+        "en": "Maturity Step (Project)"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "type": "TEXT",
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "ipq_projekt_reifestufe",
+        "en": ""
+      }
+    },
+    {
+      "uid": "6e8e39f3",
+      "typesettings": {},
+      "facetLimit": -1,
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Param. (Baukasten)",
+        "en": "Param. (Baukasten)"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Yes",
+              "valueDE": "Ja",
+              "key": "true"
+            },
+            {
+              "valueEN": "No",
+              "valueDE": "Nein",
+              "key": "false"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_param_baukasten",
+        "en": ""
+      }
+    },
+    {
+      "uid": "dabf4eb0",
+      "typesettings": {},
+      "facetLimit": 2,
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Param. COP/CCC relevant",
+        "en": "Param. COP/CCC relevant"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Yes",
+              "valueDE": "Ja",
+              "key": "true"
+            },
+            {
+              "valueEN": "No",
+              "valueDE": "Nein",
+              "key": "false"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_param_cop_ccc_relevant",
+        "en": ""
+      }
+    },
+    {
+      "uid": "38dce9fc",
+      "typesettings": {},
+      "facetLimit": 2,
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Param. (Local Cont.)",
+        "en": "Param. (Local Cont.)"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Yes",
+              "valueDE": "Ja",
+              "key": "true"
+            },
+            {
+              "valueEN": "No",
+              "valueDE": "Nein",
+              "key": "false"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_param_local_content",
+        "en": ""
+      }
+    },
+    {
+      "uid": "0092994b",
+      "typesettings": {},
+      "facetLimit": 2,
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Param. (Messplan)",
+        "en": "Param. (Meas. Plan)"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Yes",
+              "valueDE": "Ja",
+              "key": "true"
+            },
+            {
+              "valueEN": "No",
+              "valueDE": "Nein",
+              "key": "false"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_param_messplan_relevant",
+        "en": ""
+      }
+    },
+    {
+      "uid": "fae5d6d4",
+      "typesettings": {},
+      "facetLimit": 2,
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Param. (TecSa)",
+        "en": "Param. (TecSa)"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Yes",
+              "valueDE": "Ja",
+              "key": "true"
+            },
+            {
+              "valueEN": "No",
+              "valueDE": "Nein",
+              "key": "false"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_param_technische_sauberkeit",
+        "en": ""
+      }
+    },
+    {
+      "uid": "fe382e58",
+      "typesettings": {},
+      "facetLimit": 2,
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Param. (WTP)",
+        "en": "Param. (WTP)"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Yes",
+              "valueDE": "Ja",
+              "key": "true"
+            },
+            {
+              "valueEN": "No",
+              "valueDE": "Nein",
+              "key": "false"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_param_wtp_relevant",
+        "en": ""
+      }
+    },
+    {
+      "uid": "1b0fd98f",
+      "typesettings": {},
+      "facetLimit": 2,
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Param. (Konz.-Plaus.)",
+        "en": "Param. (Conc.-Plau.)"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Yes",
+              "valueDE": "Ja",
+              "key": "true"
+            },
+            {
+              "valueEN": "No",
+              "valueDE": "Nein",
+              "key": "false"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_param_konzeptrealisierungsrelevant",
+        "en": ""
+      }
+    },
+    {
+      "uid": "5394d31b",
+      "typesettings": {},
+      "facetLimit": 2,
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Param. (FMK)",
+        "en": "Param. (FMK)"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Yes",
+              "valueDE": "Ja",
+              "key": "true"
+            },
+            {
+              "valueEN": "No",
+              "valueDE": "Nein",
+              "key": "false"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_param_fmk_relevant",
+        "en": ""
+      }
+    },
+    {
+      "uid": "e1347412",
+      "facetLimit": 2,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Yes",
+              "valueDE": "Ja",
+              "key": "true"
+            },
+            {
+              "valueEN": "No",
+              "valueDE": "Nein ",
+              "key": "false"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Param. (QBP)",
+        "en": "Param. (QBP)"
+      },
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_param_qbp",
+        "en": ""
+      }
+    },
+    {
+      "uid": "6422184e",
+      "facetLimit": 2,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Yes",
+              "valueDE": "Ja",
+              "key": "true"
+            },
+            {
+              "valueEN": "No",
+              "valueDE": "Nein",
+              "key": "false"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Param. (E/E)",
+        "en": "Param. (E/E)"
+      },
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_param_ee_bauteil",
+        "en": ""
+      }
+    },
+    {
+      "uid": "af6fcbac",
+      "facetLimit": 2,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Yes",
+              "valueDE": "Ja",
+              "key": "true"
+            },
+            {
+              "valueEN": "No",
+              "valueDE": "Nein",
+              "key": "false"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Param. (Cubing)",
+        "en": "Param. (Cubing)"
+      },
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_param_cubing_relevant",
+        "en": ""
+      }
+    },
+    {
+      "uid": "e4ff777b",
+      "facetLimit": 2,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Yes",
+              "valueDE": "Ja",
+              "key": "true"
+            },
+            {
+              "valueEN": "No",
+              "valueDE": "Nein",
+              "key": "false"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "name": {
+        "de": "Param. (I-Stufen-relevant)",
+        "en": "Param. (I-Stufen-relevant)"
+      },
+      "suggestBox": false,
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_param_istufen_relevant",
+        "en": ""
+      }
+    },
+    {
+      "uid": "4fce7fd5",
+      "typesettings": {},
+      "facetLimit": 2,
+      "facetSorting": false,
+      "name": {
+        "de": "Param. (KapaFlex)",
+        "en": "Param. (KapaFlex)"
+      },
+      "suggestBox": false,
+      "suchBox": false,
+      "active": true,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Yes",
+              "valueDE": "Ja",
+              "key": "true"
+            },
+            {
+              "valueEN": "No",
+              "valueDE": "Nein",
+              "key": "false"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_param_kapaflex",
+        "en": ""
+      }
+    },
+    {
+      "uid": "31ea07b5",
+      "typesettings": {
+        "rangeManual": true
+      },
+      "facetLimit": -1,
+      "facetSorting": false,
+      "name": {
+        "de": "Zuletzt geändert",
+        "en": "Last modified"
+      },
+      "suggestBox": false,
+      "suchBox": false,
+      "active": true,
+      "format": {
+        "settings": {
+          "sourceDateFormat": "yy-mm-dd",
+          "targetDateFormat": {
+            "de": "DD.MM.YY",
+            "en": "MM/DD/YY"
+          }
+        },
+        "type": "date"
+      },
+      "type": "DATE_RANGE",
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_last_modified",
+        "en": ""
+      }
+    },
+    {
+      "uid": "3435b6e2",
+      "typesettings": {
+        "rangeManual": true
+      },
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Umfang erzeugt",
+        "en": "Scope created"
+      },
+      "suchBox": false,
+      "active": true,
+      "format": {
+        "settings": {
+          "sourceDateFormat": "yy-mm-dd",
+          "targetDateFormat": {
+            "de": "DD.MM.YY",
+            "en": "MM/DD/YY"
+          }
+        },
+        "type": "date"
+      },
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "type": "DATE_RANGE",
+      "key": {
+        "de": "umfang_created",
+        "en": ""
+      }
+    },
+    {
+      "uid": "7e859ce8",
+      "facetLimit": -1,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Switched",
+              "valueDE": "Umgeschaltet",
+              "key": "SWITCHED"
+            },
+            {
+              "valueEN": "Active",
+              "valueDE": "Aktiv",
+              "key": "ACTIVE"
+            },
+            {
+              "valueEN": "Canceled",
+              "valueDE": "Abgebrochen",
+              "key": "CANCELED"
+            },
+            {
+              "valueEN": "Canceled asked",
+              "valueDE": "Abbruch beantragt",
+              "key": "CANCELED_ASKED"
+            },
+            {
+              "valueEN": "Maintenance",
+              "valueDE": "Wartung",
+              "key": "MAINT"
+            },
+            {
+              "valueEN": "Canceled asked (out of maint)",
+              "valueDE": "Abbruch beantragt (aus Wartung)",
+              "key": "CANCELED_ASKED_MAINT"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": "COUNT",
+      "name": {
+        "de": "Umfang Status",
+        "en": "Scope State"
+      },
+      "suggestBox": false,
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_state_technical",
+        "en": ""
+      }
+    },
+    {
+      "uid": "c4bc6ce7",
+      "facetLimit": -1,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "In Parametrization",
+              "valueDE": "In Parametrisierung",
+              "key": "PARAM_WORK"
+            },
+            {
+              "valueEN": "Parametrization approved",
+              "valueDE": "Parametrisierung freigegeben",
+              "key": "PARAM_APPROVED"
+            },
+            {
+              "valueEN": "Param-Approval requested",
+              "valueDE": "Param-Freigabe angefragt",
+              "key": "PARAM_ASKED"
+            },
+            {
+              "valueEN": "Scope approved",
+              "valueDE": "Umfang freigegeben",
+              "key": "APPROVED"
+            },
+            {
+              "valueEN": "New Scope ",
+              "valueDE": "Neuer Umfang",
+              "key": "NEW"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": "COUNT",
+      "name": {
+        "de": "Funktionaler Status",
+        "en": "Functional State"
+      },
+      "suggestBox": false,
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_state_functional",
+        "en": ""
+      }
+    },
+    {
+      "uid": "c580381f",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Favorit",
+        "en": "Favorite"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "qnumber"
+      },
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "returnLimit": -1,
+      "type": "TEXT",
+      "key": {
+        "de": "favorite_of",
+        "en": ""
+      }
+    },
+    {
+      "uid": "386bc403",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Verantwortlich",
+        "en": "Responsible"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "qnumber"
+      },
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "returnLimit": -1,
+      "type": "TEXT",
+      "key": {
+        "de": "umfang_owner",
+        "en": ""
+      }
+    },
+    {
+      "uid": "96ccc492",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "ZB Umfang (Name)",
+        "en": "ZB Scope (Name)"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "returnLimit": -1,
+      "type": "TEXT",
+      "key": {
+        "de": "umfang_zb_parent_names",
+        "en": ""
+      }
+    },
+    {
+      "uid": "46341e4e",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "ZB Sub-Umfang (Name)",
+        "en": "ZB Sub-Scope (Name)"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "returnLimit": -1,
+      "type": "TEXT",
+      "key": {
+        "de": "umfang_zb_children_names",
+        "en": ""
+      }
+    },
+    {
+      "uid": "ccbe06c4",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Manueller Status",
+        "en": "Manual State"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": -1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "yes",
+              "valueDE": "ja",
+              "key": "true"
+            },
+            {
+              "valueEN": "no",
+              "valueDE": "nein",
+              "key": "false"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "returnLimit": -1,
+      "type": "TEXT",
+      "key": {
+        "de": "umfang_status_manual",
+        "en": ""
+      }
+    },
+    {
+      "uid": "76ecd10d",
+      "facetLimit": 3,
+      "minCount": 1,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Yes",
+              "valueDE": "J",
+              "key": "true"
+            },
+            {
+              "valueEN": "No",
+              "valueDE": "Nein",
+              "key": "false"
+            }
+          ]
+        },
+        "type": "text"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "name": {
+        "de": "Motorbaureihe",
+        "en": "Motorbaureihe"
+      },
+      "suggestBox": false,
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "ipq_projekt_derivat",
+        "en": ""
+      }
+    },
+    {
+      "uid": "a2e3906e",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "Projekt-QMT (Name)",
+        "en": "Project QMT (Name)"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "returnLimit": -1,
+      "type": "TEXT",
+      "key": {
+        "de": "umfang_projektqmt_name",
+        "en": ""
+      }
+    },
+    {
+      "uid": "44f13066",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "Projekt-QMT (Abteilung)",
+        "en": "Project QMT (Devision)"
+      },
+      "suchBox": false,
+      "active": true,
+      "minCount": 1,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "returnLimit": -1,
+      "type": "TEXT",
+      "key": {
+        "de": "umfang_projektqmt_abteilung",
+        "en": ""
+      }
+    },
+    {
+      "uid": "b9c8f5f7",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Umfang ID"
+      },
+      "suchBox": false,
+      "active": true,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "returnLimit": -1,
+      "type": "TEXT",
+      "key": {
+        "de": "umfang_id",
+        "en": ""
+      }
+    },
+    {
+      "uid": "c389ad6d",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": false,
+      "name": {
+        "de": "Umfang ID",
+        "en": "Scope ID"
+      },
+      "suchBox": false,
+      "active": true,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "returnLimit": 10,
+      "type": "TEXT",
+      "key": {
+        "de": "umfang_id",
+        "en": ""
+      }
+    },
+    {
+      "uid": "b5069e9a",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "Land",
+        "en": "Country"
+      },
+      "suchBox": false,
+      "active": true,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "returnLimit": -1,
+      "type": "TEXT",
+      "key": {
+        "de": "umfang_logistic_supplier_landdergesellschaft",
+        "en": ""
+      }
+    },
+    {
+      "uid": "0ed792f0",
+      "facetLimit": 2,
+      "format": {
+        "settings": {
+          "mappings": [
+            {
+              "valueEN": "Yes",
+              "valueDE": "Ja",
+              "key": "true"
+            },
+            {
+              "valueEN": "No",
+              "valueDE": "Nein",
+              "key": "false"
+            }
+          ]
+        },
+        "type": "mapping"
+      },
+      "type": "TEXT",
+      "typesettings": {},
+      "facetSorting": false,
+      "name": {
+        "de": "Param (Narb)",
+        "en": "Param (Grain)"
+      },
+      "suggestBox": false,
+      "suchBox": false,
+      "active": true,
+      "returnLimit": -1,
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "key": {
+        "de": "umfang_param_narb_relevant",
+        "en": ""
+      }
+    },
+    {
+      "uid": "1d0a949e",
+      "typesettings": {},
+      "facetSorting": false,
+      "suggestBox": true,
+      "name": {
+        "de": "id",
+        "en": "id"
+      },
+      "suchBox": false,
+      "active": true,
+      "format": {
+        "settings": {},
+        "type": "text"
+      },
+      "nullFacet": {
+        "de": "Kein Wert",
+        "enabled": false,
+        "en": "No Value"
+      },
+      "returnLimit": -1,
+      "type": "TEXT",
+      "key": {
+        "de": "id",
+        "en": ""
+      }
+    }
+  ],
+  "listenerId": "umfang_facet umfang_breadcrumb",
+  "categories": [],
+  "resultRows": 20,
+  "senderId": "umfang_table",
+  "doctype": "UMFANG",
+  "solrSystem": {
+    "url": "http://lisolr1.bmwgroup.net:18983/solr",
+    "name": "IPQ",
+    "core": "ipq"
+  },
+  "globalReturnLimit": -1,
+  "fieldQuery": "-umfang_state_technical:(CANCELED SWITCHED) +ipq_projekt_status_technisch:ACTIVE -umfang_state_functional:NEW +ipq_projekt_sop:* +ipq_projekt_reporting_relevant:true"
+}

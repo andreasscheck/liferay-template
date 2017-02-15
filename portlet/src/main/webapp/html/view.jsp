@@ -16,7 +16,7 @@
        pageContext.setAttribute("timestamp", timestamp);
 %>
 <div id="<portlet:namespace/>">
-	<root></root>
+  <app-content></app-content>
 </div>
 
 <liferay-util:body-bottom>
@@ -24,14 +24,15 @@
 		var <portlet:namespace/> = <portlet:namespace/> || {};
 
 		<portlet:namespace/>.init = function () {
-	        var <portlet:namespace/> = new Vue({
-	            el: '#<portlet:namespace/>'
-	        });
+      var <portlet:namespace/> = new Vue({
+          el: '#<portlet:namespace/>'
+      });
 			<portlet:namespace/>.$root.$children[0].namespace = '<portlet:namespace/>';
 			<portlet:namespace/>.$root.$children[0].actionURL = '${actionURL}';
 			<portlet:namespace/>.$root.$children[0].ajaxURL = '${ajaxURL}';
 		}
 		jQuery(<portlet:namespace/>.init);
 	</script>
-	<script src="<%= request.getContextPath() %>/js/build.js?${timestamp}"></script>
+	<script src="<%= request.getContextPath() %>/js/vue-app/vendor.bundle.js?${timestamp}"></script>
+	<script src="<%= request.getContextPath() %>/js/vue-app/main.bundle.js?${timestamp}"></script>
 </liferay-util:body-bottom>

@@ -1,18 +1,17 @@
-# file-upload
+# facet-config
 
-> A Vue.js project
+Facets Configuration Panel
 
-## Build Setup
+Scripts:
 
-``` bash
-# install dependencies
-npm install
+`npm run dev` - will start a local dev server at localhost:8080
 
-# serve with hot reload at localhost:8080
-npm run dev
+`npm run build` - will build your project into the /dist folder
 
-# build for production with minification
-npm run build
-```
+`npm run clean` - will delete the dist folder
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Setup: run `npm install`
+
+Enjoy!
+
+
