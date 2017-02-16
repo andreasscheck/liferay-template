@@ -1,4 +1,4 @@
-import { VueComponent, Prop } from 'vue-typescript';
+import { VueComponent, Prop } from 'vue2-typescript';
 
 declare var jQuery
 
